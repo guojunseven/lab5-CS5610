@@ -1,0 +1,13 @@
+#center {
+    background-color: silver;
+    height: 60px;
+    width: 60px;
+    border: 5px silver dotted; /** create a border to make the effect highly contrastive **/
+}
+  
+  #center:hover {
+    background-color: purple;
+    height: 120px;
+    width: 120px;
+    transition: .5s;
+}
